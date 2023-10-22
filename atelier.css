@@ -137,8 +137,16 @@ width: 100%;
 }
 
 @media screen and (max-width: 767px) {
-   .script-atelier {
-       width: 90%;
+    body {
+        font-size: 0.8em;
+      
+    }
+    .home-atelier{
+        width: 100%;
+        height: 56vh;
+    }
+    .script-atelier {
+       width: 85%;
        padding: 2em;
    }
 
@@ -152,8 +160,12 @@ width: 100%;
 
    .script-atelier button {
        margin-top: 20px;
-       width: 16vw;
-       font-size: 2vw;
+       width: 24vw;
+       height: 5vh;
+       font-size: 3vw;
+   }
+   .horaire{
+    height: 32vh;
    }
 
    .horaire h1 {
@@ -170,6 +182,8 @@ width: 100%;
 
    .inscription {
        padding-top: 1em;
+       height: 70vh;
+
    }
 
    form {
@@ -189,7 +203,9 @@ width: 100%;
    form input[type="submit"] {
        padding: 10px 20px;
    }
-
+    .map{
+        height: 50VH;
+    }
    .map h1 {
        font-size: 1.5em;
        padding-top: 20px;
@@ -197,6 +213,6 @@ width: 100%;
 
    .map iframe {
       width: 80vw;
-       margin: 50px 60px;
+       margin: 50px 45px;
    }
 }

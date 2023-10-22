@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    /* color:beige */
   }
   
   body {
@@ -51,7 +52,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    padding: 8em;
+    padding: 3em;
  }
  .script h1{
     font-family: 'poppins';
@@ -250,12 +251,11 @@
     flex-direction: column;
     align-items: start;
     gap: 2em; 
-    margin: 2em 2em;
+    margin-top: 70px;
   }
   
   .question {
     display: flex;
-    align-items: center;
     gap: 1em; 
     font-size: 1.2em;
     color: #555;
@@ -331,7 +331,14 @@ ul li a img {
   body {
       font-size: 0.8em;
   }
-
+  .musem-home{
+    height: 50vh; 
+    width: 100%;
+  }
+  .about{
+      height: 60vh; 
+      
+   }
   .navbar {
       height: 8vh;
   }
@@ -342,24 +349,27 @@ ul li a img {
   }
 
   .lien-logo img {
-      width: 30%;
+      width: 50%;
+      padding-left: 20px;
   }
 
   .script {
     width: 70%;
-    margin-left: -80px;
+   
   }
   .script h1{
-    font-size: 6vw;
+    font-size: 10vw;
   }
   .script p{
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .script button{
-    width: 14vw;
-    font-size: 2vw;
-    
+    border-radius: 30px;
+    width: 24vw;
+    font-size: 3vw;
+    margin-top: -2PX;
   }
+
   .script1{
     padding-top: 50PX;
     line-height: 3rem;
@@ -367,31 +377,31 @@ ul li a img {
     .script1 h1 {
         text-align: center;
         font-family: 'poppins';
-        font-size: 5vw;
-        margin-top: 10px;
+        font-size: 8vw;
     }
 
     .script1 p {
-        width: 50%; 
+        width: 70%; 
         color: white;
         font-family: 'poppins';
         margin: 30px auto;
-        font-size: 3vw;
+        font-size: 4vw;
         
     }
 
     .script1 button {
         margin: 0 auto; 
         display: block; 
-        width: 14VW; 
+        width: 24VW; 
         height: 6vh;
         color: black;
         font-family: 'poppins';
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 3vw;
     }
     .artiste{
-        height: 170vh; 
+      height: 400%;
+        height: 116vh; 
     }
     .artiste h1{
       padding-top: 16px;
@@ -399,17 +409,16 @@ ul li a img {
       text-align: center;
       text-decoration: underline white;
       font-family: 'poppins';
-      font-size: 4vw;
+      font-size: 8vw;
    }
    .artiste button{
-      margin-top: 4%;
-      margin-left: 42%;
-      width: 8em;
+      margin-left: 36%;
+      width: 24vw;
       height: 6vh;
       color: black;
       font-family: 'poppins';
       font-weight: bold;
-      font-size: 1.2em;
+      font-size: 4vw;
    }
     .card{
       display: flex;
@@ -425,7 +434,6 @@ ul li a img {
       box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
       color: white;
       margin-top: 110px;
-      
     }
     .artiste-card img{  
       margin-left: 3em;
@@ -433,32 +441,31 @@ ul li a img {
     }
 
     .produit {
-      height: 330vh;
+      height: 210vh;
     }
 
  .produit h1 {
-      font-size: 4vw;
+      font-size: 8vw;
   }
 
   .pic img {
       margin-top: 10%;
-      margin-left: 30%;
-      width: 40%;
-      height: 60%;
+      margin-left: 10%;
+      width: 80%;
+      height: 90%;
   }
-
   .container-images {
       grid-template-columns: 1fr ;
   }
   .produit button{
-    margin-top: 1em;
-    margin-left: 20em;
+    margin-top: 3em;
+    margin-left: 9em;
     width: 8em;
     height: 6vh;
     font-size: 1.2em;
  }
   footer {
-      height: 48vh;
+      height: 32vh;
   }
 
   .container {
@@ -480,6 +487,9 @@ ul li a img {
 
   .f {
       margin-top: 1em;
+  }
+  .faq {
+    height: 30vh;
   }
 }
 

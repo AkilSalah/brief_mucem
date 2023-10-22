@@ -168,44 +168,62 @@
     gap: 50px;
   } 
   
-  
-
 @media screen and (max-width: 767px) {
-  .script-galerie {
-      width: 70%; 
-      padding: 6em; 
-  }
+  body {
+    font-size: 0.8em;
+    overflow-x: hidden;
+}
+.home-galerie{
+  height: 50vh; 
+  width: 100%;
+}
 
-  .script-galerie h1 {
-      font-size: 6VW;
-  }
+.navbar {
+    height: 8vh;
+    width: 100%;
+}
 
-  .script-galerie p {
-      font-size: 3vw;
-  }
+.nav_list {
+    gap: 30px;
+    font-size: 1.5em;
+}
 
-  .script-galerie button {
-      margin-top: 20px;
-      width: 14vw;
-      font-size: 2vw;
-  }
+.lien-logo img {
+    width: 50%;
+}
+.script-galerie{
+ width: 85vw;
+  padding: 20PX 30px;
+
+}
+ .script-galerie h1{
+  font-size: 10vw;
+}
+.script-galerie p{
+  font-size: 4vw;
+}
+.script-galerie button{
+  border-radius: 30px;
+  width: 24vw;
+  font-size: 3vw;
+  margin-top: 4PX;
+}
   .moderne{
-    height: 420vh;
+    height: 260vh;
 
  }
   .moderne h1 {
       font-size: 2em;
       padding-top: 20px;
   }
-
   .moderne button {
-      margin: 8% 45% ;
-      width: 16vw;
-      height: 8vh;
+      margin: 8% 40% ;
+      width: 24vw;
+      height: 6vh;
   }
 
   .Traditionnelle{
-    height: 380vh;
+    height: 260vh;
 
  }
   .Traditionnelle h1 {
@@ -218,23 +236,23 @@
     display: grid;
     grid-template-columns: 1fr ;
       gap: 50px;
-      width: auto;
-      height: auto;
-      margin-left: 64px;
+      width: 80%;
+      height: 90%;
+      margin-left: 24px;
   }
  
   .photo-hover {
       font-size: 1em;
   }
 .vd{
-  height: 140vh;
+  height: 100vh;
 }
   .container-vd {
     display: flex;
     flex-direction: column;
     align-items: center;
-      margin: 30px 10px;
-      gap: 20px;
+    margin: 30px 10px;
+    gap: 20px;
   }
 
   .vd h1 {
