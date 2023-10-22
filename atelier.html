@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mucem</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='atelier.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="lien-logo">
+                <img src="image/nwlogo.png" alt="" />
+            </a>
+            <ul class="nav_list">
+               <li><a href="index.html">ACCUEIL</a></li> 
+               <li><a href="galerie.html">GALERIE</a></li> 
+               <li><a href="atelier.html">ATELIER</a></li> 
+            </ul>
+        </nav>
+        <div class="home-atelier">
+            <div class="script-atelier">
+                <h1>NOTRE ATELIER </h1>
+                <p>Bienvenue à notre atelier MUCEM dédié à la production de porcelaine. Nous sommes enchantés de vous accueillir dans cet espace de créativité où l'art et l'artisanat se rencontrent. Que vous soyez un artiste chevronné ou un débutant curieux, cet atelier est ouvert à tous ceux qui souhaitent s'immerger dans le monde fascinant de la porcelaine.</p>
+                <button>INSCRIPTION</button>
+            </div>
+        </div>
+    </header>
+    <section class="horaire">
+        <h1>NOTRE HORAIRE</h1>
+        <div class="time">
+        <p>LUNDI-JEUDI<br>08:00-18:00</p>
+        <p>VENDREDI<br>10:00-19:00</p>
+        <p>SAMEDI<br>9:00-15:00</p>
+    </div>
+    </section>
+    <section class="inscription">
+        <div class="back"> 
+            <form >
+            <h1>Inscrivez-vous</h1>
+            <input type="text"  id="nom" placeholder="NOM">
+            <input type="text"  id="prenom" placeholder="PRENOM">
+            <input type="text"  id="cin" placeholder="CIN">
+            <input type="email" id="email" placeholder="EMAIL">
+            <input type="text"  id="telephone" placeholder="TELEPHONE">
+             <input type="submit" value="INSCRIT" onclick="validerFormulaire"> 
+        </form>
+    </div>
+    </section>
+    <section class="map">
+        <h1>Trouvez-Nous</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13489.066294737762!2d-9.236593044580104!3d32.304691299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211a890ee15f%3A0x158ac119e1205a14!2sAtelier%20de%20poterie%20serghini!5e0!3m2!1sfr!2sma!4v1697813856122!5m2!1sfr!2sma" width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="contact">
+                <h3>Contactez-nous</h3>
+                <p>Email : akilsalaheddine203@gmail.com</p>
+                <p>Téléphone : 0682397103</p>
+            </div>
+            <div class="logo">
+                <img src="image/nwlogo.png" alt="">
+
+            </div>
+            <div class="social-media">
+                <h3>Suivez-nous</h3>
+                <ul>
+                    <li><a href="#"><img src="image/fb.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="image/in.png" alt="Linkiden"></a></li>
+                    <li><a href="#"><img src="image/insta.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="image/localmesum.png" alt="Instagram"></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="f">© 2023 Bartonsuk Limited. All Rights Reserved.</div>
+    </footer>
+
+    <script>
+        function validerFormulaire() {
+        var nom = document.getElementById('nom').value;
+        var prenom = document.getElementById('prenom').value;
+        var cin = document.getElementById('cin').value;
+        var email = document.getElementById('email').value;
+        var telephone = document.getElementById('telephone').value;
+
+        var nomRegex = /^[A-Za-z]+$/;
+        var cinRegex = /^[0-9]{8}$/;
+        var emailRegex = /^[a-zA-Z0-9]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,4}$/;
+        var telephoneRegex = /^[0-9]{10}$/;
+    
+        if (!nomRegex.test(nom)) {
+            alert("Le nom n'est pas valide. Il doit contenir uniquement des lettres.");
+            return;
+        }
+    
+        if (!nomRegex.test(prenom)) {
+            alert("Le prénom n'est pas valide. Il doit contenir uniquement des lettres.");
+            return;
+        }
+    
+        if (!cinRegex.test(cin)) {
+            alert("Le numéro de CIN n'est pas valide. Il doit contenir 8 chiffres.");
+            return;
+        }
+    
+        if (!emailRegex.test(email)) {
+            alert("L'adresse e-mail n'est pas valide.");
+            return;
+        }
+    
+        if (!telephoneRegex.test(telephone)) {
+            alert("Le numéro de téléphone n'est pas valide. Il doit contenir 10 chiffres.");
+            return;
+        }
+    
+        alert("Formulaire soumis avec succès !");
+    }</script>

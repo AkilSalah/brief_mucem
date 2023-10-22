@@ -1,0 +1,250 @@
+.home-galerie{
+    background:linear-gradient(to right bottom, 
+    rgba(31, 33, 34, 0.537),
+    rgba(40, 40, 40, 0.8)), url(image/ba.jpg);
+    background-position:center ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.script-galerie{
+    font-size: 16px;
+    line-height: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 6.5em;
+ }
+ .script-galerie h1{
+    font-family: 'poppins';
+    font-size: 3em;
+    color: #C4B596;
+ }
+
+ .script-galerie p{
+    color: white;
+    font-family: 'poppins';
+    font-size: 1.2em;
+ }
+
+ .script-galerie button{
+    margin-top: 30px;
+    width: 8em;
+    height: 6vh;
+    color: white;
+    background-color: #000000;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 1.2em;
+ }
+  button:hover{
+  background-color: #555;
+  cursor: pointer;
+ }
+ .moderne{
+    background:linear-gradient(to right bottom, 
+    rgba(31, 33, 34, 0.537),
+    rgba(40, 40, 40, 0.8)), url(image/differentes-assiettes-bols-vides-ceramique.jpg);
+    background-position:center ;
+    background-size: cover;
+    width: 100%;
+    height: 180vh;
+
+ }
+  .moderne h1 {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 40PX;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .moderne button {
+    margin-left: 165%;
+    width: 8em;
+    height: 8vh;
+    color: white;
+    background-color: #000000;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 10%;
+  }
+  button:hover{
+    background-color: #555;
+    cursor: pointer;
+    color: #000000;
+   }
+
+   .Traditionnelle h1 {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    margin: 100px 130px;
+    gap: 100px;
+  }
+    .Traditionnelle{
+        background:linear-gradient(to right bottom, 
+        rgba(31, 33, 34, 0.537),
+        rgba(40, 40, 40, 0.8)), url(image/BT.jpg);
+        background-position:center ;
+        background-size: cover;
+        width: 100%;
+        height: 180vh;
+    }
+
+
+   .grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    margin: 100px 130px;
+    gap: 100px;
+  } 
+  
+  .grid-paysages img,
+  .grid-portraits img {
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+  }
+  
+  .lien-conteneur-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+  }
+  .vd{
+
+    background:linear-gradient(to right bottom, 
+    rgba(31, 33, 34, 0.537),
+    rgba(40, 40, 40, 0.8)), url(image/Poteries.jpg);
+    background-position:center ;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+  }
+
+
+  .vd h1{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .container-vd {
+    margin: 70px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 50px;
+  } 
+  
+  
+
+@media screen and (max-width: 767px) {
+  .script-galerie {
+      width: 70%; 
+      padding: 6em; 
+  }
+
+  .script-galerie h1 {
+      font-size: 6VW;
+  }
+
+  .script-galerie p {
+      font-size: 3vw;
+  }
+
+  .script-galerie button {
+      margin-top: 20px;
+      width: 14vw;
+      font-size: 2vw;
+  }
+  .moderne{
+    height: 420vh;
+
+ }
+  .moderne h1 {
+      font-size: 2em;
+      padding-top: 20px;
+  }
+
+  .moderne button {
+      margin: 8% 45% ;
+      width: 16vw;
+      height: 8vh;
+  }
+
+  .Traditionnelle{
+    height: 380vh;
+
+ }
+  .Traditionnelle h1 {
+      font-size: 2em;
+      padding-top: 20px;
+  }
+
+  .grid-paysages,
+  .grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr ;
+      gap: 50px;
+      width: auto;
+      height: auto;
+      margin-left: 64px;
+  }
+ 
+  .photo-hover {
+      font-size: 1em;
+  }
+.vd{
+  height: 140vh;
+}
+  .container-vd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      margin: 30px 10px;
+      gap: 20px;
+  }
+
+  .vd h1 {
+      font-size: 2em;
+      padding-top: 20px;
+  }
+
+  .vd button {
+      margin-left: 10%;
+      width: 7em;
+      height: 6vh;
+  }
+}
