@@ -10,7 +10,6 @@
   }
   ul {
     list-style: none;
-    
   }
   a{
     color: white;
@@ -74,6 +73,7 @@
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
+    border-radius: 30px;
  }
   button:hover{
   background-color: #555;
@@ -120,6 +120,7 @@
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
+    border-radius: 30px;
  }
  .artiste{
   background:linear-gradient(to right bottom, 
@@ -139,14 +140,15 @@
     font-size: 2em;
  }
  .artiste button{
-    margin-top: 4%;
-    margin-left: 44%;
+    margin: 50px 60px;
     width: 8em;
     height: 6vh;
-    color: black;
+    color: white;
+    background-color: #000000;
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
+    border-radius: 30px;
  }
 
   .card{
@@ -229,6 +231,7 @@
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
+    border-radius: 30px;
  }
  .produit button:hover{
   background-color: #a0a0b1;
@@ -237,7 +240,8 @@
     background-color: #f5f5f5;
     padding: 2em 0;
     text-align: center;
-    height: 50vh;
+    height: 60vh;
+    
   }
   
   .faq h1 {
@@ -250,8 +254,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 2em; 
-    margin-top: 70px;
+    gap: 4em; 
+    margin: 70px;
   }
   
   .question {
@@ -326,10 +330,20 @@ ul li a img {
   margin-top: 3em;
    
 }
-
+.burger{
+  display: none;
+}
 @media screen and (max-width: 767px) {
   body {
       font-size: 0.8em;
+  }
+  .burger{
+    display: block;
+  }
+  .burger img{
+    width: 40px;
+    margin-right: 20px;
+
   }
   .musem-home{
     height: 50vh; 
@@ -344,30 +358,32 @@ ul li a img {
   }
 
   .nav_list {
-      gap: 30px;
-      font-size: 1.5em;
+    display: none;
+     
   }
 
   .lien-logo img {
-      width: 50%;
+      width: 40%;
       padding-left: 20px;
   }
 
   .script {
     width: 70%;
+    text-align: center;
    
   }
   .script h1{
+    color: beige;
     font-size: 10vw;
   }
   .script p{
     font-size: 4vw;
   }
   .script button{
-    border-radius: 30px;
+   
     width: 24vw;
     font-size: 3vw;
-    margin-top: -2PX;
+    margin: auto ;
   }
 
   .script1{
@@ -415,7 +431,7 @@ ul li a img {
       margin-left: 36%;
       width: 24vw;
       height: 6vh;
-      color: black;
+      color: rgb(255, 255, 255);
       font-family: 'poppins';
       font-weight: bold;
       font-size: 4vw;
@@ -453,6 +469,13 @@ ul li a img {
       margin-left: 10%;
       width: 80%;
       height: 90%;
+  }
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4em; 
+    margin: 24px;
   }
   .container-images {
       grid-template-columns: 1fr ;

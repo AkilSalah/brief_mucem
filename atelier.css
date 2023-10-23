@@ -139,7 +139,8 @@ width: 100%;
 @media screen and (max-width: 767px) {
     body {
         font-size: 0.8em;
-      
+        width: fit-content;
+      overflow-x: hidden;
     }
     .home-atelier{
         width: 100%;
@@ -147,7 +148,7 @@ width: 100%;
     }
     .script-atelier {
        width: 85%;
-       padding: 2em;
+       padding: 30px ;
    }
 
    .script-atelier h1 {
@@ -163,13 +164,14 @@ width: 100%;
        width: 24vw;
        height: 5vh;
        font-size: 3vw;
+       border-radius: 30px;
    }
    .horaire{
     height: 32vh;
    }
 
    .horaire h1 {
-       font-size: 1.5em;
+       font-size: 2em;
        padding-top: 30px;
    }
 
@@ -181,8 +183,8 @@ width: 100%;
    }
 
    .inscription {
-       padding-top: 1em;
-       height: 70vh;
+       padding-top: 5em;
+       height: 56vh;
 
    }
 
@@ -191,7 +193,7 @@ width: 100%;
    }
 
    form h1 {
-       font-size: 1.5em;
+       font-size: 2em;
    }
 
    form input[type="text"],
@@ -204,10 +206,10 @@ width: 100%;
        padding: 10px 20px;
    }
     .map{
-        height: 50VH;
+        height: 56VH;
     }
    .map h1 {
-       font-size: 1.5em;
+       font-size: 8vw;
        padding-top: 20px;
    }
 

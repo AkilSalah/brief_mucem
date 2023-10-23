@@ -178,19 +178,6 @@
   width: 100%;
 }
 
-.navbar {
-    height: 8vh;
-    width: 100%;
-}
-
-.nav_list {
-    gap: 30px;
-    font-size: 1.5em;
-}
-
-.lien-logo img {
-    width: 50%;
-}
 .script-galerie{
  width: 85vw;
   padding: 20PX 30px;
@@ -213,13 +200,14 @@
 
  }
   .moderne h1 {
-      font-size: 2em;
+      font-size:  8vw;
       padding-top: 20px;
   }
   .moderne button {
       margin: 8% 40% ;
-      width: 24vw;
+      width: 25vw;
       height: 6vh;
+      border-radius: 30px;
   }
 
   .Traditionnelle{
@@ -227,7 +215,7 @@
 
  }
   .Traditionnelle h1 {
-      font-size: 2em;
+      font-size: 8vw;
       padding-top: 20px;
   }
 
@@ -256,7 +244,7 @@
   }
 
   .vd h1 {
-      font-size: 2em;
+      font-size: 8vw;
       padding-top: 20px;
   }
 
