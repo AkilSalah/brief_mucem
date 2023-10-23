@@ -10,19 +10,20 @@
     <script src='main.js'></script>
 </head>
 <body>
+    
     <header>
         <nav class="navbar">
             <a href="index.html" class="lien-logo">
                 <img src="image/nwlogo.png" alt="" />
             </a>
-            <ul class="nav_list">
-               <li><a href="index.html">ACCUEIL</a></li> 
-               <li><a href="galerie.html">GALERIE</a></li> 
-               <li><a href="atelier.html">ATELIER</a></li> 
-            </ul>
-            <div class="burger">
-                <img src="image/Hamburger1_icon.svg.png" alt="">
-            </div>
+            <ul class="nav_list" id="menu">
+                <li><a href="index.html">ACCUEIL</a></li> 
+                <li><a href="galerie.html">GALERIE</a></li> 
+                <li><a href="atelier.html">ATELIER</a></li> 
+             </ul>
+             <div class="burger">
+                 <img src="image/Hamburger1_icon.svg.png" alt="" id="burger-btn">
+             </div>
         </nav>
         <div class="home-atelier">
             <div class="script-atelier">
@@ -41,8 +42,8 @@
     </div>
     </section>
     <section class="inscription">
-        <div class="back"> 
-            <form >
+ 
+            <form  id="myForm">
             <h1>Inscrivez-vous</h1>
             <input type="text"  id="nom" placeholder="NOM">
             <input type="text"  id="prenom" placeholder="PRENOM">
@@ -51,7 +52,7 @@
             <input type="text"  id="telephone" placeholder="TELEPHONE">
              <input type="submit" value="INSCRIT" onclick="validerFormulaire"> 
         </form>
-    </div>
+    
     </section>
     <section class="map">
         <h1>Trouvez-Nous</h1>
@@ -81,3 +82,6 @@
         </div>
         <div class="f">© 2023 Bartonsuk Limited. All Rights Reserved.</div>
     </footer>
+    <script src="script.js"></script>
+</body>
+</html>
