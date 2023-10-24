@@ -139,12 +139,12 @@ width: 100%;
 @media screen and (max-width: 767px) {
     body {
         font-size: 0.8em;
-        width: fit-content;
+       
       overflow-x: hidden;
     }
     .home-atelier{
         width: 100%;
-        height: 56vh;
+        height: 60vh;
     }
     .script-atelier {
        width: 85%;
@@ -166,7 +166,7 @@ width: 100%;
        border-radius: 30px;
    }
    .horaire{
-    height: 32vh;
+    height: 34vh;
    }
 
    .horaire h1 {
@@ -183,7 +183,7 @@ width: 100%;
 
    .inscription {
        padding-top: 5em;
-       height: 56vh;
+       height: 58vh;
 
    }
 
@@ -214,6 +214,6 @@ width: 100%;
 
    .map iframe {
       width: 80vw;
-       margin: 50px 45px;
+       margin: 50px 42px;
    }
 }

@@ -1,3 +1,5 @@
+
+
 this.addEventListener("DOMContentLoaded", () =>{
     const questions = document.querySelectorAll(".question")
     questions.forEach((question) => question.addEventListener("click", () =>{
@@ -51,7 +53,19 @@ function validerFormulaire(event) {
 }
 
 
-document.getElementById("myForm").addEventListener("submit", validerFormulaire);
+// document.getElementById("myForm").addEventListener("submit", validerFormulaire);
+
+
+const burgerButton = document.querySelector(".burger");
+const menu = document.querySelector(".nav_list");
+
+burgerButton.addEventListener("click", function () {
+    menu.classList.toggle("active");
+});
+
+
+
+
 
 
 
