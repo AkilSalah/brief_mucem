@@ -1,5 +1,17 @@
 
 
+
+const burgerButton = document.querySelector(".burger");
+const menu = document.querySelector(".nav_list");
+
+burgerButton.addEventListener("click", function () {
+    menu.classList.toggle("active");
+});
+
+
+
+
+
 this.addEventListener("DOMContentLoaded", () =>{
     const questions = document.querySelectorAll(".question")
     questions.forEach((question) => question.addEventListener("click", () =>{
@@ -17,6 +29,9 @@ this.addEventListener("DOMContentLoaded", () =>{
 
 
 
+
+
+
 function validerFormulaire(event) {
     
     const nom = document.getElementById("nom").value;
@@ -26,7 +41,7 @@ function validerFormulaire(event) {
     const telephone = document.getElementById("telephone").value;
 
     const nomRegex = /^[A-Za-zÀ-ÖØ-öø-ÿ\s-]{2,}$/;
-    const cinRegex = /^[A-Za-z0-9]{8}$/; 
+    const cinRegex = /^[A-Za-z0-9]{7}$/; 
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const telephoneRegex = /^[0-9]{10}$/;
 
@@ -52,17 +67,7 @@ function validerFormulaire(event) {
     }
 }
 
-
-// document.getElementById("myForm").addEventListener("submit", validerFormulaire);
-
-
-const burgerButton = document.querySelector(".burger");
-const menu = document.querySelector(".nav_list");
-
-burgerButton.addEventListener("click", function () {
-    menu.classList.toggle("active");
-});
-
+document.getElementById("myForm").addEventListener("submit", validerFormulaire);
 
 
 

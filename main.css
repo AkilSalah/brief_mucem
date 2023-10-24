@@ -7,6 +7,8 @@
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
     background-color: #a0a0b1;
+    font-size: 16px;
+
   }
   ul {
     list-style: none;
@@ -46,12 +48,12 @@
   }
 
  .script{
-    font-size: 16px;
+    font-size: 1.2em;
     line-height: 4rem;
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    padding: 3em;
+    padding: 4em;
  }
  .script h1{
     font-family: 'poppins';
@@ -66,13 +68,13 @@
 
  .script button{
     margin-top: 30px;
-    width: 8em;
-    height: 6vh;
+    width: 6.5em;
+    height: 2em;
     color: white;
     background-color: #000000;
     font-family: 'poppins';
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     border-radius: 30px;
  }
   button:hover{
@@ -384,45 +386,40 @@ ul li a img {
       font-size: 0.8em;
       overflow: hidden;
   }
- 
   .wrapper{
-    height: 90vh;
-    
+    height: 110vh;
   }
-
   .image__wrapper img {
     width: 50%;
   }
   .image__wrapper {
-    left: 4%;
+    left: 50%;
     top: 4%;
-   
   }
   .accordion__wrapper {
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 156%;
+    right: 110%;
     top: 24%;
-    
   }
   .burger{
     display: block;
   }
   .burger img{
-    width: 40px;
+    width: 50px;
     margin-right: 20px;
   }
   .musem-home{
-    height: 50vh; 
+    height: 70vh; 
     width: 100%;
   }
   .about{
-      height: 60vh; 
+      height: 80vh; 
       
    }
   .navbar {
-      height: 8vh;
+      height: 10vh;
       width: 100vw;
       display: flex;
       justify-content: space-between;
@@ -433,7 +430,7 @@ ul li a img {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: red;
+    background-color: #99918F;
     width: 100vw;
     height: auto;
     display: none;
@@ -447,11 +444,11 @@ ul li a img {
     display: flex; /* Active state: displayed */
 }
 .lien-logo img {
-      width: 7rem;
+      width: 12rem;
       padding-left: 20px;
   }
 .script {
-    width: 70%;
+    width: 85vw;
     text-align: center;
    
   }
@@ -463,10 +460,15 @@ ul li a img {
     font-size: 4vw;
   }
   .script button{
-   
-    width: 24vw;
+    margin: 10% auto; 
+    display: block; 
+    width: 24VW; 
+    height: 8vh;
+    color: rgb(255, 255, 255);
+    font-family: 'poppins';
+    font-weight: bold;
     font-size: 3vw;
-    margin: auto ;
+    
   }
 
   .script1{
@@ -489,7 +491,7 @@ ul li a img {
     }
 
     .script1 button {
-        margin: 0 auto; 
+        margin: 5% auto; 
         display: block; 
         width: 24VW; 
         height: 6vh;
@@ -500,7 +502,7 @@ ul li a img {
     }
     .artiste{
       height: 400%;
-        height: 116vh; 
+        height: 138vh; 
     }
     .artiste h1{
       padding-top: 16px;
@@ -511,9 +513,9 @@ ul li a img {
       font-size: 8vw;
    }
    .artiste button{
-      margin:1% 38%;
+      margin:8% 38%;
       width: 24vw;
-      height: 6vh;
+      height: 8vh;
       color: rgb(255, 255, 255);
       font-family: 'poppins';
       font-weight: bold;
@@ -523,34 +525,35 @@ ul li a img {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 3PX; 
+      
     }
     .artiste-card{
-      width: 18em;
+      width: 30em;
       height: 20rem;
       border-radius: 20px;
       background: rgba(177, 155, 145, 0.88);
       box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
       color: white;
-      margin-top: 110px;
+      margin-top: 40px;
     }
     .artiste-card img{  
-      margin-left: 3em;
-    
+      margin-left: 5em;
+      width: 20EM;
+      height: 10em;
     }
 
     .produit {
-      height: 218vh;
+      height: 355vh;
     }
 
  .produit h1 {
-      font-size: 8vw;
+      font-size: 6vw;
   }
 
   .pic img {
       margin-top: 10%;
-      margin-left: 10%;
-      width: 80%;
+      margin-left: 25%;
+      width: 50%;
       height: 90%;
   }
   .faq-container {
@@ -564,14 +567,14 @@ ul li a img {
       grid-template-columns: 1fr ;
   }
   .produit button{
-    margin-top: 3em;
-    margin-left: 8.5em;
-    width: 8em;
-    height: 6vh;
+    margin-top: 6em;
+    margin-left: 16em;
+    width: 16em;
+    height: 10vh;
     font-size: 1.2em;
  }
   footer {
-      height: 32vh;
+      height: 40vh;
   }
 
   .container {

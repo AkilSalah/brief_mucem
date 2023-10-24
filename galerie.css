@@ -37,6 +37,7 @@
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
+    border-radius: 30px;
  }
   button:hover{
   background-color: #555;
@@ -69,7 +70,7 @@
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
-    border-radius: 10%;
+    border-radius: 30px;
   }
   button:hover{
     background-color: #555;
@@ -102,7 +103,17 @@
         height: 180vh;
     }
 
-
+    .Traditionnelle button {
+      margin-left: 165%;
+      width: 8em;
+      height: 8vh;
+      color: white;
+      background-color: #000000;
+      font-family: 'poppins';
+      font-weight: bold;
+      font-size: 1.2em;
+      border-radius: 30px;
+    }
    .grid-portraits {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -142,8 +153,8 @@
   .lien-conteneur-photo:hover .photo-hover {
     display: flex;
   }
+  
   .vd{
-
     background:linear-gradient(to right bottom, 
     rgba(31, 33, 34, 0.537),
     rgba(40, 40, 40, 0.8)), url(image/Poteries.jpg);
@@ -174,48 +185,57 @@
     overflow-x: hidden;
 }
 .home-galerie{
-  height: 50vh; 
+  height: 80vh; 
   width: 100%;
 }
 
 .script-galerie{
  width: 85vw;
-  padding: 20PX 30px;
+  padding: 50PX 30px;
+  
 
 }
  .script-galerie h1{
+  padding-bottom: 40px;
   font-size: 10vw;
 }
 .script-galerie p{
   font-size: 4vw;
+  line-height: 50px;
 }
 .script-galerie button{
   border-radius: 30px;
   width: 24vw;
   font-size: 3vw;
-  margin-top: 4PX;
+  margin-top: 24PX;
 }
   .moderne{
-    height: 280vh;
+    height: 350vh;
+    
 
  }
   .moderne h1 {
-      font-size:  8vw;
+      font-size:  5vw;
       padding-top: 20px;
   }
   .moderne button {
-      margin: 8% 40% ;
+      margin: 0px 30%;
       width: 25vw;
-      height: 6vh;
+      height: 8vh;
       border-radius: 30px;
   }
-
+  .Traditionnelle button {
+    margin: 0px 30%;
+    width: 25vw;
+    height: 8vh;
+    border-radius: 30px;
+}
   .Traditionnelle{
-    height: 260vh;
+    height: 320vh;
 
  }
   .Traditionnelle h1 {
-      font-size: 8vw;
+      font-size: 5vw;
       padding-top: 20px;
   }
 
@@ -224,16 +244,16 @@
     display: grid;
     grid-template-columns: 1fr ;
       gap: 50px;
-      width: 80%;
-      height: 90%;
-      margin-left: 24px;
+      width: 50vw;
+      height: 40vh;
+      margin: 30px 180px;
   }
  
   .photo-hover {
       font-size: 1em;
   }
 .vd{
-  height: 100vh;
+  height: 130vh;
 }
   .container-vd {
     display: flex;
@@ -244,7 +264,7 @@
   }
 
   .vd h1 {
-      font-size: 8vw;
+      font-size: 5vw;
       padding-top: 20px;
   }
 

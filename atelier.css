@@ -37,6 +37,7 @@
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
+    border-radius: 30px;
  }
   button:hover{
   background-color: #555;
@@ -166,7 +167,7 @@ width: 100%;
        border-radius: 30px;
    }
    .horaire{
-    height: 34vh;
+    height: 42vh;
    }
 
    .horaire h1 {
@@ -183,7 +184,7 @@ width: 100%;
 
    .inscription {
        padding-top: 5em;
-       height: 58vh;
+       height: 74vh;
 
    }
 
@@ -205,15 +206,15 @@ width: 100%;
        padding: 10px 20px;
    }
     .map{
-        height: 56VH;
+        height: 80VH;
     }
    .map h1 {
-       font-size: 8vw;
+       font-size: 2em;
        padding-top: 20px;
    }
 
    .map iframe {
       width: 80vw;
-       margin: 50px 42px;
+       margin: 50px 80px;
    }
 }
