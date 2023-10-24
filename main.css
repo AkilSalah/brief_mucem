@@ -388,9 +388,22 @@ ul li a img {
   }
   .wrapper{
     height: 110vh;
+
+  }
+  .title__question {
+    font-size: 1.8rem;
+    margin-top: 60px;
+  }
+  .answer {
+   font-size: 25px;
+    padding-bottom: 1.8rem;
+    
+  }
+  .question-answer__accordion {
+    width: 580px;
   }
   .image__wrapper img {
-    width: 50%;
+    width: 70%;
   }
   .image__wrapper {
     left: 50%;
@@ -400,7 +413,7 @@ ul li a img {
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 110%;
+    right: 90%;
     top: 24%;
   }
   .burger{
@@ -455,9 +468,11 @@ ul li a img {
 .script h1{
     color: beige;
     font-size: 10vw;
+    
   }
 .script p{
-    font-size: 4vw;
+    font-size: 5vw;
+    margin-top: 50px;
   }
   .script button{
     margin: 10% auto; 
@@ -485,8 +500,8 @@ ul li a img {
         width: 70%; 
         color: white;
         font-family: 'poppins';
-        margin: 30px auto;
-        font-size: 4vw;
+        margin: 50px auto;
+        font-size: 5vw;
         
     }
 
@@ -529,7 +544,7 @@ ul li a img {
     }
     .artiste-card{
       width: 30em;
-      height: 20rem;
+      height: 30rem;
       border-radius: 20px;
       background: rgba(177, 155, 145, 0.88);
       box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
@@ -539,11 +554,23 @@ ul li a img {
     .artiste-card img{  
       margin-left: 5em;
       width: 20EM;
-      height: 10em;
+      height: 20em;
+    }
+    .artiste-card h4{
+      
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    }
+    .artiste-card p{
+      margin: 10px;
+      font-size: 20px;
+      text-align: center;
     }
 
     .produit {
-      height: 355vh;
+      height: 255vh;
     }
 
  .produit h1 {
@@ -567,11 +594,11 @@ ul li a img {
       grid-template-columns: 1fr ;
   }
   .produit button{
-    margin-top: 6em;
-    margin-left: 16em;
-    width: 16em;
+    margin-top: 4em;
+    margin-left: 10.5em;
+    width: 12em;
     height: 10vh;
-    font-size: 1.2em;
+    font-size: 1.8em;
  }
   footer {
       height: 40vh;
@@ -581,6 +608,7 @@ ul li a img {
       flex-direction: column;
       align-items: center;
       text-align: center;
+      font-size:1.5em;
      
   }
 
@@ -590,7 +618,7 @@ ul li a img {
   }
 
   .logo img {
-      width: 8em;
+      width: 10em;
       margin-top: 2em;
   }
 

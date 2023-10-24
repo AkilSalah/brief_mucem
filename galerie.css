@@ -191,7 +191,7 @@
 
 .script-galerie{
  width: 85vw;
-  padding: 50PX 30px;
+  padding: 170PX 30px;
   
 
 }
@@ -201,7 +201,7 @@
 }
 .script-galerie p{
   font-size: 4vw;
-  line-height: 50px;
+  line-height: 70px;
 }
 .script-galerie button{
   border-radius: 30px;
@@ -210,7 +210,7 @@
   margin-top: 24PX;
 }
   .moderne{
-    height: 350vh;
+    height: 250vh;
     
 
  }
@@ -231,7 +231,7 @@
     border-radius: 30px;
 }
   .Traditionnelle{
-    height: 320vh;
+    height: 230vh;
 
  }
   .Traditionnelle h1 {
@@ -253,14 +253,14 @@
       font-size: 1em;
   }
 .vd{
-  height: 130vh;
+  height: 100vh;
 }
   .container-vd {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px 10px;
-    gap: 20px;
+    gap: 160px;
   }
 
   .vd h1 {
