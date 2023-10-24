@@ -39,8 +39,8 @@
   }
  .musem-home{
     background:linear-gradient(to right bottom, 
-    rgba(31, 33, 34, 0.174),
-    rgba(40, 40, 40, 0.8)), url(image/background2.jpg);
+    rgba(31, 33, 34, 0.568),
+    rgba(40, 40, 40, 0.735)), url(image/background2.jpg);
     background-size: cover; 
     background-position:center; 
     height: 100vh; 
@@ -58,6 +58,7 @@
  .script h1{
     font-family: 'poppins';
     font-size: 3em;
+    color: #21130D;
  }
 
  .script p{
@@ -83,7 +84,7 @@
  }
  .about{
   background:linear-gradient(to right bottom, 
-  rgba(31, 33, 34, 0.174),
+  rgba(31, 33, 34, 0.511),
   rgba(40, 40, 40, 0.8)), url(image/backvedio.jpg);
     background-size: cover; 
     background-position:center; 
@@ -91,6 +92,7 @@
     width: 100%;
  }
  .script1{
+ 
    line-height: 4rem;
     width: 100%;
     display: flex;
@@ -98,10 +100,10 @@
     align-items: center;
     padding-top: 60px;
  }
- .script1 h1{
+ .script1 h1{ 
+  color: #21130D;
     font-family: 'poppins';
     font-size: 3em;
-    color:whitesmoke ;
     text-decoration: underline;
  }
 
@@ -114,7 +116,7 @@
  }
 
  .script1 button{
-  text-align: center;
+    text-align: center;
     margin-top: 30px;
     width: 8em;
     height: 6vh;
@@ -145,14 +147,17 @@
     margin: 50px 43%;
     width: 8em;
     height: 6vh;
-    color: white;
-    background-color: #000000;
+    color: black;
+    background-color: #C4B596;
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
     border-radius: 30px;
  }
-
+ button:hover{
+  background-color: #555;
+  cursor: pointer;
+ }
   .card{
     display: flex;
     justify-content: center;
@@ -239,7 +244,7 @@
   background-color: #a0a0b1;
  }
   .wrapper {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     display: grid;
     grid-template-columns: 400px 1fr;
@@ -278,7 +283,7 @@
   }
   
   .question-answer__accordion {
-    width: 350px;
+    width: 440px;
     border-bottom: 1px solid #e8e8ea;
   }
   .title__accordion {
@@ -387,7 +392,7 @@ ul li a img {
       overflow: hidden;
   }
   .wrapper{
-    height: 110vh;
+    height: 124vh;
 
   }
   .title__question {
@@ -400,7 +405,7 @@ ul li a img {
     
   }
   .question-answer__accordion {
-    width: 580px;
+    width: 620px;
   }
   .image__wrapper img {
     width: 70%;
@@ -448,7 +453,7 @@ ul li a img {
     height: auto;
     display: none;
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 2rem 0;
 }
 

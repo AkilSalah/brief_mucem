@@ -32,8 +32,8 @@
     margin-top: 30px;
     width: 8em;
     height: 6vh;
-    color: white;
-    background-color: #000000;
+    color: rgb(0, 0, 0);
+    background-color: #C4B596;
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
@@ -41,6 +41,7 @@
  }
   button:hover{
   background-color: #555;
+  color: #ffffff;
   cursor: pointer;
  }
  .moderne{
@@ -65,8 +66,8 @@
     margin-left: 165%;
     width: 8em;
     height: 8vh;
-    color: white;
-    background-color: #000000;
+    color: black;
+    background-color: #C4B596;
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
@@ -75,7 +76,7 @@
   button:hover{
     background-color: #555;
     cursor: pointer;
-    color: #000000;
+    color: white;
    }
 
    .Traditionnelle h1 {
@@ -107,13 +108,18 @@
       margin-left: 165%;
       width: 8em;
       height: 8vh;
-      color: white;
-      background-color: #000000;
+      color: black;
+      background-color: #C4B596;
       font-family: 'poppins';
       font-weight: bold;
       font-size: 1.2em;
       border-radius: 30px;
     }
+    button:hover{
+      background-color: #555;
+      cursor: pointer;
+      color: white;
+     }
    .grid-portraits {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
