@@ -65,6 +65,9 @@ function validerFormulaire(event) {
         alert("Numéro de téléphone non valide");
         event.preventDefault();
     }
+    else{
+        alert("inscription fait en success");
+    }
 }
 
 document.getElementById("myForm").addEventListener("submit", validerFormulaire);
