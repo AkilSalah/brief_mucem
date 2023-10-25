@@ -58,7 +58,7 @@
  .script h1{
     font-family: 'poppins';
     font-size: 3em;
-    color: #21130D;
+    color: #b38a24e7;
  }
 
  .script p{
@@ -67,20 +67,22 @@
     font-size: 1.5em;
  }
 
- .script button{
+ .btn1 {
     margin-top: 30px;
     width: 6.5em;
-    height: 2em;
     color: white;
     background-color: #000000;
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.1em;
     border-radius: 30px;
+    text-align: center;
+    transition: ease background-color 1s;
  }
-  button:hover{
+   .btn1:hover{
   background-color: #555;
   cursor: pointer;
+  transition: ease background-color 1s;
  }
  .about{
   background:linear-gradient(to right bottom, 
@@ -115,17 +117,6 @@
     font-size: 1.5em;
  }
 
- .script1 button{
-    text-align: center;
-    margin-top: 30px;
-    width: 8em;
-    height: 6vh;
-    color: black;
-    font-family: 'poppins';
-    font-weight: bold;
-    font-size: 1.2em;
-    border-radius: 30px;
- }
  .artiste{
   background:linear-gradient(to right bottom, 
   rgba(31, 33, 34, 0.174),
@@ -135,6 +126,12 @@
     height: 100vh; 
     width: 100%;
  }
+ .artist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50PX;
+ }
  .artiste h1{
     padding-top: 16px;
     color: #FFF;
@@ -143,18 +140,18 @@
     font-family: 'poppins';
     font-size: 2em;
  }
- .artiste button{
-    margin: 50px 43%;
-    width: 8em;
-    height: 6vh;
-    color: black;
-    background-color: #C4B596;
-    font-family: 'poppins';
-    font-weight: bold;
-    font-size: 1.2em;
-    border-radius: 30px;
- }
- button:hover{
+ .btn2 {
+  color: white;
+  background-color: #000000;
+  width: 10vw;
+  font-family: 'poppins';
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 30px;
+  text-align: center;
+  transition: ease background-color 1s;
+}
+ .btn2:hover{
   background-color: #555;
   cursor: pointer;
  }
@@ -171,7 +168,7 @@
     background: rgba(177, 155, 145, 0.88);
     box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
     color: white;
-    margin-top: 110px;
+    margin-top: 30px;
     
   }
   .artiste-card img{
@@ -180,7 +177,7 @@
     margin-left: 2em;
     height: 8em;
     width: 12em;
-    margin-top: 30px;
+    margin: auto;
     border-radius: 15px;
   }
   
@@ -198,6 +195,22 @@
     font-size: 14px;
     text-align: center;
   }
+  .btn3 {
+    color: white;
+    background-color: #000000;
+    width: 16vw;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 30px;
+    padding: 1%;
+    text-align: center;
+    transition: ease background-color 1s;
+  }
+   .btn3:hover{
+    background-color: #555;
+    cursor: pointer;
+   }
   .produit {
     background:linear-gradient(to right bottom, 
     rgba(31, 33, 34, 0.174),
@@ -206,6 +219,9 @@
     background-position: center;
     height: 160vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    
   }
   .produit h1{
     padding-top: 40px;
@@ -228,20 +244,23 @@
     align-content: end;
     grid-template-columns: repeat(3, 1fr) ;
   }
-  .produit button{
-    margin-top: 7em;
-    margin-left: 28.7em;
+  .btn4 {
+    text-align: center;
     width: 8em;
-    height: 6vh;
     color: white;
     background-color: #000000;
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2em;
     border-radius: 30px;
- }
- .produit button:hover{
-  background-color: #a0a0b1;
+    align-self: center;
+    padding: 10PX;
+    margin-top: 10%;
+    transition: ease background-color 1s;
+}
+ .btn4:hover{
+  background-color: #555;
+  cursor: pointer;
  }
   .wrapper {
     height: 110vh;
@@ -391,14 +410,12 @@ ul li a img {
    html{
     overflow-x: hidden;
   }
-
   body {
       font-size: 0.8em;
       overflow: hidden;
   }
   .wrapper{
     height: 124vh;
-
   }
   .title__question {
     font-size: 1.8rem;
@@ -484,11 +501,10 @@ ul li a img {
     font-size: 5vw;
     margin-top: 50px;
   }
-  .script button{
+  .btn1{
     margin: 10% auto; 
     display: block; 
     width: 24VW; 
-    height: 8vh;
     color: rgb(255, 255, 255);
     font-family: 'poppins';
     font-weight: bold;
@@ -504,6 +520,7 @@ ul li a img {
         text-align: center;
         font-family: 'poppins';
         font-size: 8vw;
+        color: #e8e8ea;
     }
 
     .script1 p {
@@ -515,7 +532,7 @@ ul li a img {
         
     }
 
-    .script1 button {
+    .btn2 {
         margin: 5% auto; 
         display: block; 
         width: 24VW; 
@@ -537,15 +554,7 @@ ul li a img {
       font-family: 'poppins';
       font-size: 8vw;
    }
-   .artiste button{
-      margin:8% 38%;
-      width: 24vw;
-      height: 8vh;
-      color: rgb(255, 255, 255);
-      font-family: 'poppins';
-      font-weight: bold;
-      font-size: 4vw;
-   }
+  
     .card{
       display: flex;
       flex-direction: column;
