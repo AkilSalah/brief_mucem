@@ -311,12 +311,17 @@
   
   .question img {
     align-self: center;
+    width: 20px;
+  }
+  .image__wrapper img{
+    width: 300px;
   }
 
   .image__wrapper {
     position: relative;
     left: 50%;
     top: 20%;
+    
   }
   footer {
     background-color: #333;
